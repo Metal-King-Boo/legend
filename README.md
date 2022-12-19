@@ -13,28 +13,4 @@ Features
 
 Status
 Currently in a semi-playable state. The game functions but is not up to the desired standard. Its current form mainly works as a showcase
-or demo of what could be. See the progress log to see where it stands.
-
-12/19/22
-This app only has 2 of the game modes working. These would be the Standard Mode and the Boss Rush Mode. There are also no assets used for
-character and boss portraits. Gameplay has been slightly balanced from its previous iterations yet it still needs a lot more runs of play
-testing.
-
-To-Do-List
-
-Fix the combat system
-- make the battle queue work with boss speed in mind
-- give the ability for variable/longer battle logs
-- make space for "animations" to run
-
-Add new combat capabilities
-- allow the user to target allies for certain skills
-  - examples: pick a target for Cover and Holy Water/Well
-- give bosses and attacks different resistances
-  - this would boost the power of Sages and add more involved gameplay with one
-  
-Refactor and Maintenance
-- fix the damage formula to be more consistent and modular
-- fix the UI for character buttons and selections in battle
-- add the UI for the title and the menu buttons
-- add a way to permanently save boss records
+or demo of what could be. See the progress log to see where it stands and future revisions needed.
