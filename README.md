@@ -33,3 +33,5 @@ Refactor and Maintenance
 - fix the UI for character buttons and selections in battle
 - add the UI for the title and the menu buttons
 - add a way to permanently save boss records
+
+[progress log.txt](https://github.com/Metal-King-Boo/legend/files/10262909/progress.log.txt)
