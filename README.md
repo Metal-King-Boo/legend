@@ -12,5 +12,7 @@ Features
 3 Playable game modes - Standard, Boss Rush, Reversal
 
 Status
-Currently in a semi-playable state. The game functions but is not up to the desired standard. Its current form mainly works as a showcase
-or demo of what could be. See the progress log to see where it stands and future revisions needed.
+Currently in a semi-playable state. The game functions but is not up to the 
+desired standard. Its current form mainly works as a showcase or demo of what
+could be. See the progress log to see where it stands and future revisions 
+needed.
