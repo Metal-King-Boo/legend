@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/empButton"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/empButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saiButton"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/saiButton"
+        app:layout_constraintStart_toEndOf="@+id/empButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/encButton"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/encButton"
+        app:layout_constraintStart_toEndOf="@+id/saiButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sagButton"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/sagButton"
+        app:layout_constraintStart_toEndOf="@+id/encButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pirButton"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/pirButton"
+        app:layout_constraintStart_toEndOf="@+id/sagButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/check4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pirButton" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/check3"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox4"
+        app:layout_constraintTop_toBottomOf="@+id/sagButton" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/check2"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox3"
+        app:layout_constraintTop_toBottomOf="@+id/encButton" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/check1"
+        app:layout_constraintEnd_toStartOf="@+id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@+id/saiButton" />
+
+    <ImageView
+        android:id="@+id/charImage"
+        android:layout_width="187dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:background="#CF0707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/charIcon"
+        android:layout_width="187dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:background="#2196F3"
+        app:layout_constraintStart_toEndOf="@+id/charImage"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox4"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toBottomOf="@+id/charImage"
+        app:srcCompat="@android:drawable/btn_star" />
+
+    <ImageButton
+        android:id="@+id/fowardButton2"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:onClick="setOnclickListener"
+        app:layout_constraintStart_toEndOf="@+id/homeButton"
+        app:layout_constraintTop_toBottomOf="@+id/charIcon"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/charImage"
+        app:srcCompat="@android:drawable/ic_media_previous" />
+
+    <Button
+        android:id="@+id/confirmButton"
+        android:layout_width="187dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/confirmButton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fowardButton2" />
+
+    <TextView
+        android:id="@+id/charText"
+        android:layout_width="177dp"
+        android:layout_height="290dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/empText"
+        app:layout_constraintStart_toEndOf="@+id/charImage"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox1" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="187dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/cancelButton"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/confirmButton"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

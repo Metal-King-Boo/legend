@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/timerButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/quitButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+
+    <TextView
+        android:id="@+id/bossName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="monospace"
+        android:text=" "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/quitButton"
+        app:layout_constraintStart_toEndOf="@+id/timerButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bossImage"
+        android:layout_width="380dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="#CF0707"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bossName"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/player1Display"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text=" "
+        android:textAlignment="viewStart"
+        android:textSize="9sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bossImage" />
+
+    <Button
+        android:id="@+id/player2Display"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=" "
+        android:textAlignment="viewStart"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/player1Display"
+        app:layout_constraintTop_toBottomOf="@+id/bossImage" />
+
+    <Button
+        android:id="@+id/player3Display"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=" "
+        android:textAlignment="viewStart"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/player2Display"
+        app:layout_constraintTop_toBottomOf="@+id/bossImage" />
+
+    <Button
+        android:id="@+id/player4Display"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text=" "
+        android:textAlignment="textStart"
+        android:textSize="9sp"
+        app:layout_constraintStart_toEndOf="@+id/player3Display"
+        app:layout_constraintTop_toBottomOf="@+id/bossImage" />
+
+    <ImageView
+        android:id="@+id/textDisplay"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#2196F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mpBar"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <Button
+        android:id="@+id/cancelButton2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/cancelButton2"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/confirmButton2"
+        app:layout_constraintTop_toBottomOf="@+id/textDisplay" />
+
+    <Button
+        android:id="@+id/confirmButton2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/confirmButton2"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDisplay" />
+
+    <TextView
+        android:id="@+id/skillBox"
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/AttackDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mpBar" />
+
+    <ImageView
+        android:id="@+id/mpBar"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="5dp"
+        android:background="#3F51B5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/player1Display"
+        app:srcCompat="@android:drawable/bottom_bar" />
+
+    <ScrollView
+        android:id="@+id/skillButtonView"
+        android:layout_width="181dp"
+        android:layout_height="267dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mpBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/attackButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/attackButton" />
+
+            <Button
+                android:id="@+id/skill1Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILL 1" />
+
+            <Button
+                android:id="@+id/skill2Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILL 2" />
+
+            <Button
+                android:id="@+id/skill3Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILL 3" />
+
+            <Button
+                android:id="@+id/skill4Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILL 4" />
+
+            <Button
+                android:id="@+id/skill5Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILL 5" />
+
+            <Button
+                android:id="@+id/skill6Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILL 6" />
+
+            <Button
+                android:id="@+id/skill7Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SKILL 7" />
+
+            <Button
+                android:id="@+id/overSoulButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/oversoulButton" />
+
+            <Button
+                android:id="@+id/defendButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/defendButton" />
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

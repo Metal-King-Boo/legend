@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/selectedMode"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="serif-monospace"
+        android:text="@string/standardButtonText"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/modeDescription"
+        android:layout_width="350dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/standardTextDesc"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/selectedMode" />
+
+    <Button
+        android:id="@+id/standardButton"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="monospace"
+        android:text="@string/standardButtonText"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/modeDescription" />
+
+    <Button
+        android:id="@+id/bossRushButton"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="@string/bossRushButtonText"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/standardButton" />
+
+    <Button
+        android:id="@+id/reversalButton"
+        android:layout_width="340dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="monospace"
+        android:text="@string/reversalButtonText"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bossRushButton" />
+
+    <ImageButton
+        android:id="@+id/forwardButton"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reversalButton"
+        app:srcCompat="@android:drawable/ic_media_play" />
+</androidx.constraintlayout.widget.ConstraintLayout>

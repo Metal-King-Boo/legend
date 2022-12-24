@@ -1,0 +1,120 @@
+<resources>
+    <!-- strings for Main Activity -->
+    <string name="app_name">Legend</string>
+    <string name="creditsText">Faizu Adam 2022</string>
+    <string name="startText">PUSH ANYWHERE TO START</string>
+
+    <!-- strings for Mode Activity -->
+    <string name="standardButtonText">STANDARD</string>
+    <string name="bossRushButtonText">BOSS RUSH</string>
+    <string name="reversalButtonText">REVERSAL</string>
+
+    <string name="standardTextDesc">Words go here describing the game mode [Standard]</string>
+    <string name="bossRushTextDesc">Words go here describing the game mode [Boss Rush]</string>
+    <string name="reversalTextDesc">Words go here describing the game mode [Reversal]</string>
+
+    <!-- strings for CharacterI Activity -->
+    <string name="empButton">EMP</string>
+    <string name="saiButton">SNT</string>
+    <string name="encButton">ENC</string>
+    <string name="sagButton">SGE</string>
+    <string name="pirButton">PIR</string>
+
+    <string name="check1">P1</string>
+    <string name="check2">P2</string>
+    <string name="check3">P3</string>
+    <string name="check4">P4</string>
+
+    <string name="confirmButton">CONFIRM</string>
+    <string name="cancelButton">CANCEL</string>
+
+    <string name="empText">Text goes here describing the current Class [Emperor]</string>
+    <string name="saiText">Text goes here describing the current Class [Saint]</string>
+    <string name="encText">Text goes here describing the current Class [Enchantress]</string>
+    <string name="sagText">Text goes here describing the current Class [Sage]</string>
+    <string name="pirText">Text goes here describing the current Class [Pirate]</string>
+
+
+    <!-- strings for BossI Activity -->
+    <string name="boss1Button">Shae D. - The Sinisister</string>
+    <string name="boss2Button">Miss Lead - Matriarch of the O Men</string>
+    <string name="boss3Button">Ruhtra - Fallen King of the Round</string>
+    <string name="boss4Button">Den Mo - The Calamitous Fiend</string>
+
+    <string name="boss1Text">Text goes here describing the current Boss [Shae D.]</string>
+    <string name="boss2Text">Text goes here describing the current Boss [Miss Lead]</string>
+    <string name="boss3Text">Text goes here describing the current Boss [Ruhtra]</string>
+    <string name="boss4Text">Text goes here describing the current Boss [Den Mo]</string>
+
+    <!-- strings for BattleI Activity-->
+    <string name="boss1Name">Shae D.</string>
+    <string name="boss2Name">Miss Lead</string>
+    <string name="boss3Name">Ruhtra</string>
+    <string name="boss4Name">Den Mo</string>
+
+    <string name="cancelButton2">CANCEL</string>
+    <string name="confirmButton2">CONFIRM</string>
+    <string name="confirmButtonAlt">ENGAGE</string>
+
+    <string name="attackButton">ATTACK</string>
+    <string name="defendButton">DEFEND</string>
+
+    <string name="AttackDesc">Swing down on a foe with the equipped weapon.</string>
+    <string name="DefendDesc">Guard oneself from incoming attacks.</string>
+
+    <!-- strings for testing purposes-->
+    <string name="suzaku">Percival \nHP: 100/100</string>
+    <string name="byakko">Jeanne \nHP: 200/200</string>
+    <string name="genbu">Sephira \nHP: 300/300</string>
+    <string name="seiryuu">Gelid \nHP: 400/400</string>
+    <string name="haunglong">Titania \nHP: 500/500</string>
+    <string name="mpBar">MP: 1000/1000</string>
+
+    <string name="oversoulButton">OVERSOUL</string>
+
+    <string name="status1">Character Status is displayed here when their respective button is clicked [Player 1]</string>
+    <string name="status2">Character Status is displayed here when their respective button is clicked [Player 2]</string>
+    <string name="status3">Character Status is displayed here when their respective button is clicked [Player 3]</string>
+    <string name="status4">Character Status is displayed here when their respective button is clicked [Player 4]</string>
+
+    <string name="skill1">Character Skill is displayed here when their respective button is clicked [Skill 1]</string>
+    <string name="skill2">Character Skill is displayed here when their respective button is clicked [Skill 2]</string>
+    <string name="skill3">Character Skill is displayed here when their respective button is clicked [Skill 3]</string>
+    <string name="skill4">Character Skill is displayed here when their respective button is clicked [Skill 4]</string>
+    <string name="skill5">Character Skill is displayed here when their respective button is clicked [Skill 5]</string>
+    <string name="skill6">Character Skill is displayed here when their respective button is clicked [Skill 6]</string>
+    <string name="skill7">Character Skill is displayed here when their respective button is clicked [Skill 7]</string>
+    <string name="overS">Character Skill is displayed here when their respective button is clicked [Oversoul]</string>
+
+    <string name="nameTesting1">Titania the Pirate</string>
+    <string name="nameTesting2">Gelid the Sage</string>
+    <string name="nameTesting3">Jeanne the Saint</string>
+    <string name="nameTesting4">Sephira the Enchantress</string>
+    <string name="nameTesting5">Percival the Emperor</string>
+
+
+    <!-- strings for ResultI Activity-->
+    <string name="victory">VICTORY</string>
+    <string name="defeated">DEFEATED</string>
+    <string name="bossFought">Boss:</string>
+    <string name="party1">P1:</string>
+    <string name="party2">P2:</string>
+    <string name="party3">P3:</string>
+    <string name="party4">P4:</string>
+    <string name="takenTurns">Turns Taken:</string>
+
+    <!--
+    //to do list
+    // BUILD 0 LIST
+    //as of 10/7/2022 BUILD 0 is COMPLETE
+
+    // BUILD 1 LIST
+    // potentially add the text for the mana bar
+
+    // BUILD 2 LIST
+    // make the boss rush setup work properly
+    // - it currently forces a team of pirates
+    -->
+
+
+</resources>
