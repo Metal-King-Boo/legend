@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- custom colors palettes-->
+    <!-- we lost the sea -->
+    <color name="wlts1">#817D6B</color>
+    <color name="wlts2">#504A3E</color>
+    <color name="wlts3">#BD8E5E</color>
+    <color name="wlts4">#1D3F3F</color>
+    <color name="wlts5">#1D1F21</color>
+
+    <!-- sagittarius the archer -->
+    <color name="sta1">#05434F</color>
+    <color name="sta2">#25464F</color>
+    <color name="sta3">#45464F</color>
+    <color name="sta4">#65464F</color>
+    <color name="sta5">#85464F</color>
+
+    <!-- not gravel -->
+    <color name="ng1">#28313A</color>
+    <color name="ng2">#414E61</color>
+    <color name="ng3">#5C6d89</color>
+    <color name="ng4">#402626</color>
+    <color name="ng5">#4B0303</color>
+
+    <!-- legend mix -->
+    <color name="leg_black">#1D1F21</color>
+    <color name="leg_gray">#45464F</color>
+    <color name="leg_metal">#28313A</color>
+    <color name="leg_red">#4B0303</color>
+    <color name="leg_dirt">#55302B</color>
+    <color name="leg_teal">#05434F</color>
+    <color name="leg_ocean">#2D5371</color>
+    <color name="leg_blue">#5C6d89</color>
+    <color name="leg_yellow">#BD8E5E</color>
+    <color name="leg_sand">#817D6B</color>
+    <color name="leg_gold">#ece2b3</color>
+
+</resources>
