@@ -1,0 +1,81 @@
+com/example/legend/ManaPool.java
+ com.example.legend.ManaPool
+com/example/legend/BuildConfig.java
+ com.example.legend.BuildConfig
+com/example/legend/MainActivity.java
+ com.example.legend.MainActivity
+ com.example.legend.MainActivity$1
+com/example/legend/ModeActivity.java
+ com.example.legend.ModeActivity
+ com.example.legend.ModeActivity$1
+ com.example.legend.ModeActivity$2
+ com.example.legend.ModeActivity$3
+ com.example.legend.ModeActivity$4
+com/example/legend/CharacterIActivity.java
+ com.example.legend.CharacterIActivity
+ com.example.legend.CharacterIActivity$1
+ com.example.legend.CharacterIActivity$10
+ com.example.legend.CharacterIActivity$2
+ com.example.legend.CharacterIActivity$3
+ com.example.legend.CharacterIActivity$4
+ com.example.legend.CharacterIActivity$5
+ com.example.legend.CharacterIActivity$6
+ com.example.legend.CharacterIActivity$7
+ com.example.legend.CharacterIActivity$8
+ com.example.legend.CharacterIActivity$9
+com/example/legend/ResultIActivity.java
+ com.example.legend.ResultIActivity
+ com.example.legend.ResultIActivity$1
+ com.example.legend.ResultIActivity$2
+ com.example.legend.ResultIActivity$3
+ com.example.legend.ResultIActivity$4
+com/example/legend/BossIActivity.java
+ com.example.legend.BossIActivity
+ com.example.legend.BossIActivity$1
+ com.example.legend.BossIActivity$2
+ com.example.legend.BossIActivity$3
+ com.example.legend.BossIActivity$4
+ com.example.legend.BossIActivity$5
+ com.example.legend.BossIActivity$6
+ com.example.legend.BossIActivity$7
+com/example/legend/Boss.java
+ com.example.legend.Boss
+ com.example.legend.DenMo
+ com.example.legend.MissLead
+ com.example.legend.Ruhtra
+ com.example.legend.ShaeD
+com/example/legend/BattleIActivity.java
+ com.example.legend.BattleIActivity
+ com.example.legend.BattleIActivity$1
+ com.example.legend.BattleIActivity$10
+ com.example.legend.BattleIActivity$11
+ com.example.legend.BattleIActivity$12
+ com.example.legend.BattleIActivity$13
+ com.example.legend.BattleIActivity$14
+ com.example.legend.BattleIActivity$15
+ com.example.legend.BattleIActivity$15$1
+ com.example.legend.BattleIActivity$15$2
+ com.example.legend.BattleIActivity$15$3
+ com.example.legend.BattleIActivity$15$4
+ com.example.legend.BattleIActivity$15$5
+ com.example.legend.BattleIActivity$15$6
+ com.example.legend.BattleIActivity$15$7
+ com.example.legend.BattleIActivity$16
+ com.example.legend.BattleIActivity$17
+ com.example.legend.BattleIActivity$18
+ com.example.legend.BattleIActivity$19
+ com.example.legend.BattleIActivity$2
+ com.example.legend.BattleIActivity$3
+ com.example.legend.BattleIActivity$4
+ com.example.legend.BattleIActivity$5
+ com.example.legend.BattleIActivity$6
+ com.example.legend.BattleIActivity$7
+ com.example.legend.BattleIActivity$8
+ com.example.legend.BattleIActivity$9
+com/example/legend/Hero.java
+ com.example.legend.Emperor
+ com.example.legend.Enchantress
+ com.example.legend.Hero
+ com.example.legend.Pirate
+ com.example.legend.Sage
+ com.example.legend.Saint

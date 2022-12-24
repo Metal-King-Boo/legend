@@ -1,0 +1,245 @@
+<resources>
+    <!-- strings for Main Activity -->
+    <string name="app_name">Legend</string>
+    <string name="creditsText">Faizu Adam 2022</string>
+    <string name="startText">PUSH ANYWHERE TO START</string>
+
+    <!-- strings for Mode Activity -->
+    <string name="standardButtonText">STANDARD</string>
+    <string name="bossRushButtonText">BOSS RUSH</string>
+    <string name="reversalButtonText">REVERSAL</string>
+
+    <string name="standardTextDesc">This is the standard way to play the game. Create a team of four heroes to face off against an adversary of your choosing.</string>
+    <string name="bossRushTextDesc">This is the advanced way to play the game. Like the standard mode, create a team of four heroes to fight with. The difference is you will face all the bosses in sequential order. No breaks allowed. [Still in Development]</string>
+    <string name="reversalTextDesc">This is an alternate way to play the game. Choose one of the four villainous foes to control and face off against the heroes. [Coming Soon]</string>
+
+    <!-- strings for CharacterI Activity -->
+    <string name="empButton">EMP</string>
+    <string name="saiButton">SNT</string>
+    <string name="encButton">ENC</string>
+    <string name="sagButton">SGE</string>
+    <string name="pirButton">PIR</string>
+
+    <string name="check1">P1</string>
+    <string name="check2">P2</string>
+    <string name="check3">P3</string>
+    <string name="check4">P4</string>
+
+    <string name="confirmButton">CONFIRM</string>
+    <string name="cancelButton">CANCEL</string>
+
+    <string name="empText">\n Class: Emperor \n Role: Defender \n\n The wise rulers of nations \n and charismatic warriors \n who fight for what they \n believe in. These heroes \n protect and embolden their \n comrades to survive even \n the harshest battles. \n\n Recommended for \n Beginners</string>
+    <string name="saiText">\n Class: Saint \n Role: Healer \n\n Maidens blessed by the \n higher powers who fight for \n justice. Compassionate and \n gentle with their allies while \n harsh to those deemed evil. \n Absorb dark energy from \n enemies and convert it into \n healing for the team. \n\n Recommended for All</string>
+    <string name="encText">\n Class: Enchantress \n Role: Support \n\n Serene dancers that \n channel the power of rituals \n and the Arcana in a \n spectacle performance. \n These mystics reveal their \n cards to cause various \n effects or dance to tap into \n celestial powers. \n\n Recommended for All</string>
+    <string name="sagText">\n Class: Sage \n Role: Attacker \n\n Scholars who have poured \n over hundreds of tomes \n in pursuit of magic. These \n clever sorcerers have \n mastered all fields of magic \n both natural and forbidden. \n Cast lower level spells to \n mix them into stronger \n devastating calamities. \n\n Recommended for \n Beginners</string>
+    <string name="pirText">\n Class: Pirate \n Role: Attacker \n\n Masters of the sea that \n carry their own honor code. \n \"Anything goes when fighting \n traitors, monsters, and other \n pirates\". These rough and \n tumble swashbucklers get \n things done by damaging \n weakened foes. \n\n\ Recommended for Experts</string>
+
+
+    <!-- strings for BossI Activity -->
+    <string name="boss1Button">Shae D. - The Sinisister</string>
+    <string name="boss2Button">Miss Lead - Matriarch of the O Men</string>
+    <string name="boss3Button">Ruhtra - Fallen King of the Round</string>
+    <string name="boss4Button">Den Mo - The Calamitous Fiend</string>
+
+    <string name="boss1Text">The shunned Sister of the Grand Temple. Because she turned her back on the faith they cursed her to this appearance. Not very powerful as a sister but after her transformation she managed to become something of a threat.</string>
+    <string name="boss2Text">A deranged cult leader who created her following by kidnapping children and raising them as her own. Once she was a respectable mage, but the loss of her son caused her to go mad. Her mastery of magic and illusions have led to the fall of the many who challenged her. </string>
+    <string name="boss3Text">Once the King and leader of his order of knights, Arthur was an honorable person. Due to conspiracy and a coup his entire Kingdom fell into ruin and all his men executed. His spirit lingered and had taken the name Ruhtra seeking to pull unfortunate souls to the depths of his forlorn castle.</string>
+    <string name="boss4Text">The Demon King that had dropped the world into an endless darkness. A ruthless and cunning monster who clawed his way to the top on his own merits. Extremely dangerous and only who have been blessed have challenged him.</string>
+
+    <!-- strings for BattleI Activity -->
+    <string name="boss1Name">Shae D.</string>
+    <string name="boss2Name">Miss Lead</string>
+    <string name="boss3Name">Ruhtra</string>
+    <string name="boss4Name">Den Mo</string>
+
+    <string name="cancelButton2">CANCEL</string>
+    <string name="confirmButton2">CONFIRM</string>
+    <string name="confirmButtonAlt">ENGAGE</string>
+
+    <string name="attackButton">ATTACK</string>
+    <string name="defendButton">DEFEND</string>
+
+    <string name="AttackDesc">Swing down on a foe with the equipped weapon.</string>
+    <string name="DefendDesc">Guard oneself from incoming attacks.</string>
+
+    <!-- strings for testing purposes -->
+    <string name="nameTesting1">Pirate</string>
+    <string name="nameTesting2">Sage</string>
+    <string name="nameTesting3">Saint</string>
+    <string name="nameTesting4">Enchantress</string>
+    <string name="nameTesting5">Emperor</string>
+
+    <!-- strings for ResultI Activity -->
+    <string name="victory">VICTORY</string>
+    <string name="defeated">DEFEATED</string>
+    <string name="bossFought">Boss:</string>
+    <string name="party1">P1:</string>
+    <string name="party2">P2:</string>
+    <string name="party3">P3:</string>
+    <string name="party4">P4:</string>
+    <string name="takenTurns">Turns Taken:</string>
+
+    <!-- |||||||||||||||||||||||||||| strings for the Hero Classes ||||||||||||||||||||||||||||| -->
+
+    <!-- strings for the Emperor Class -->
+    <string name="empSkill1">Cover</string>
+    <string name="empSkill2">Lead the Charge</string>
+    <string name="empSkill3">Hold the Line</string>
+    <string name="empSkill4">Reinforcements are Coming</string>
+    <string name="empSkill5">Overcome Weakness</string>
+    <string name="empSkill6">Berserker</string>
+    <string name="empSkill7">Stand United</string>
+    <string name="empOversoul">Going Home Alive</string>
+
+    <string name="empSkill1Desc">Show your compassionate side. Take damage in place of an ally. \n\nCost: 7 MP</string>
+    <string name="empSkill2Desc">Lead by example by striking the enemy first. Increases aggro and deals physical damage. \n\nCost: 12 MP</string>
+    <string name="empSkill3Desc">Command your troops to take a defensive formation. Increases all allies physical defense. \n\nCost: 15 MP</string>
+    <string name="empSkill4Desc">Assure your soldiers that backup is on the way. Increases all allies magical defense. \n\nCost: 15 MP</string>
+    <string name="empSkill5Desc">Let out a battle cry to regain control of your own body. The resounding shockwave strikes fear into the enemy. Attempt to apply current ailment to the enemy while removing your own. \n\nCost: 30 MP</string>
+    <string name="empSkill6Desc">Make a powerful swing with reckless abandon. Deals physical damage to the enemy while also damaging yourself. \n\nCost: 7 MP</string>
+    <string name="empSkill7Desc">Unite your troops to cover their fellow man. Greatly increase all allies defenses but lower all offenses. \n\nCost: 19 MP</string>
+    <string name="empOversoulDesc">Rally your soldiers with words of glory and honor. Remind them of what they fight for. Makes all allies impervious to enemy attacks and ailments.  \n\nThis skill can only be used once per battle.</string>
+
+    <!-- strings for the Saint Class -->
+    <string name="saiSkill1">Holy Smite</string>
+    <string name="saiSkill2">Love thy Neighbor</string>
+    <string name="saiSkill3">Holy Water</string>
+    <string name="saiSkill4">Divine Intervention</string>
+    <string name="saiSkill5">Blessing</string>
+    <string name="saiSkill6">Blessed Bells</string>
+    <string name="saiSkill7">Benediction</string>
+    <string name="saiOversoul">Heaven\'s Eyes</string>
+
+    <string name="saiSkill1Desc">Calls upon the sacred beings to dish out punishment. Deals hybrid damage to drain the enemy of their health. \n\nCost: 7 MP</string>
+    <string name="saiSkill2Desc">Share what you have with your comrades. Give a percentage of your current health to all allies. \n\nCost: 3% HP</string>
+    <string name="saiSkill3Desc">Share blessed waters with those in need. Cures status ailments and/or revives an ally. \n\nCost: 28 MP</string>
+    <string name="saiSkill4Desc">Calls upon the sacred powers for protection. Prevents an ally from being targeted. \n\nCost: 14 MP</string>
+    <string name="saiSkill5Desc">Grants a blessing to all party members praying for them. Grants all allies regen. \n\nCost: 7 MP</string>
+    <string name="saiSkill6Desc">Rings the holy bells to cleanse the body and soul. Removes 1 debuff from all allies. \n\nCost: 14 MP</string>
+    <string name="saiSkill7Desc">A fervent prayer meant to receive the blessing of the heavens. Give a percentage of your current health to restore MP. \n\nCost: 60% HP</string>
+    <string name="saiOversoulDesc">Channel the scared powers into you. Let your body become a vessel for the divine. Enhances all skills. \n\nThis skill can only be used once per battle.</string>
+
+    <string name="saiSkill1Alt">Divine Wrath</string>
+    <string name="saiSkill2Alt">Peace Be Upon You</string>
+    <string name="saiSkill3Alt">Holy Well</string>
+    <string name="saiSkill4Alt">Fate Rewritten</string>
+    <string name="saiSkill5Alt">Consecration</string>
+    <string name="saiSkill6Alt">Sacred Chimes</string>
+    <string name="saiSkill7Alt">Graceful Litany</string>
+    <string name="saiOversoulAlt">Heaven\'s Eyes</string>
+
+    <string name="saiSkill1DescAlt">A more potent form of Holy Smite which drains more energy. \n\nCost: 7 MP</string>
+    <string name="saiSkill2DescAlt">A more potent form of Love thy Neighbor which heals more for less cost. \n\nCost: 5% HP</string>
+    <string name="saiSkill3DescAlt">A more potent form of Holy Water which targets the whole party. \n\nCost: 28 MP</string>
+    <string name="saiSkill4DescAlt">A more potent form of Divine Intervention which redirects all attacks to someone else. \n\nCost: 14 MP</string>
+    <string name="saiSkill5DescAlt">A more potent form of Blessing which heals more health per turn. \n\nCost: 7 MP</string>
+    <string name="saiSkill6DescAlt">A more potent form of Blessed Bells which removes 2 debuffs instead of 1. \n\nCost: 14 MP</string>
+    <string name="saiSkill7DescAlt">A more potent form of Benediction which restores more MP. \n\nCost: 40% HP</string>
+    <string name="saiOversoulDescAlt">Channel the scared powers into you. Let your body become a vessel for the divine. Enhances all skills.</string>
+
+    <!-- strings for the Enchantress Class-->
+    <string name="encSkill1">Strength VIII</string>
+    <string name="encSkill2">The Tower XVI</string>
+    <string name="encSkill3">The Chariot VII</string>
+    <string name="encSkill4">Death XIII</string>
+    <string name="encSkill5">The Fool O</string>
+    <string name="encSkill6">Ritual of Flames</string>
+    <string name="encSkill7">Divination Dance</string>
+    <string name="encOversoul">Celestial Guidance</string>
+
+    <string name="encSkill1Desc">Flip over the card depicting a gentle woman and a fierce lion. \nUpright: Raises the attack of all allies. \nReversed: Lowers the enemy\'s attack. \n\nCost: 20 MP</string>
+    <string name="encSkill2Desc">Flip over the card depicting a forlorn tower. \nUpright: Raises the defenses of all allies. \nReversed: Lowers the enemy\'s defenses. \n\nCost: 20 MP</string>
+    <string name="encSkill3Desc">Flip over the card depicting a gilded chariot. \nUpright: Raises the agility of all allies. \nReversed: Lowers the enemy\'s agility. \n\nCost: 20 MP</string>
+    <string name="encSkill4Desc">Flip over the card depicting the grim reaper. \nUpright: Applies a random ailment on the enemy. \nReversed: Applies a random ailment on all allies. \n\nCost: 50 MP</string>
+    <string name="encSkill5Desc">Flip over the card depicting the oblivious beggar. Activates the effect of a random Arcana. Current card selection applies. \n\nCost: 5 MP</string>
+    <string name="encSkill6Desc">Perform a sacred ritual to torment those with wicked intentions. Burns the enemy with great probability. \n\nCost: 13 MP</string>
+    <string name="encSkill7Desc">Perform an elegant dance to get inspirations from the stars. Gain insight on the next card is Upright or Reversed. \nUpright: Slightly heals all allies. \nReversed: Deals magic damage to the enemy. \n\nCost: 10 MP</string>
+    <string name="encOversoulDesc">Call out to those who would govern fate. Have them guide your readings. For a short duration, all cards will activate both effects. \n\nThis skill can only be used once per battle.</string>
+
+    <!-- strings for the Sage Class-->
+    <string name="sagSkill1">Eruption</string>
+    <string name="sagSkill2">Blizzard</string>
+    <string name="sagSkill3">Tornado</string>
+    <string name="sagSkill4">Earthquake</string>
+    <string name="sagSkill5">Light Tempest</string>
+    <string name="sagSkill6">Dark Tsunami</string>
+    <string name="sagSkill7">Aether Catastrophe</string>
+    <string name="sagOversoul">Apocalypse</string>
+
+    <string name="sagSkill1Desc">Conjure a fire pillar with potency nothing short of a volcanic eruption. Deals fire damage to the enemy and stores one Tier 1 Mark. \n\nCost: 15 MP</string>
+    <string name="sagSkill2Desc">Cast a hail of ice blades reminiscent of a blizzard. Deals ice damage to the enemy and stores one Tier 1 Mark. \n\nCost: 15 MP</string>
+    <string name="sagSkill3Desc">Summon a windstorm with the destructive force of a tornado. Deals wind damage to the enemy and stores one Tier 1 Mark. \n\nCost: 15 MP</string>
+    <string name="sagSkill4Desc">Create an earthquake to shake and rumble with a fervor surpassing the Richter Scale. Deals earth damage to the enemy and stores one Tier 1 Mark. \n\nCost: 15 MP</string>
+    <string name="sagSkill5Desc">Fuse both fire and wind to create a disaster sent down from the heavens. Deals light damage to the enemy and stores one Tier 2 and Tier 1 Mark.\nRequires two Tier 1 Mark. \n\nCost: 45 MP</string>
+    <string name="sagSkill6Desc">Fuse both water and earth to create a disaster rising from the underworld. Deals dark damage to the enemy and stores one Tier 2 and Tier 1 Mark. \nRequires two Tier 1 Mark. \n\nCost: 45 MP</string>
+    <string name="sagSkill7Desc">Merge light and dark to create a catastrophe capable of leveling nations. Deals untyped magic damage to the enemy and stores one Tier 3 Mark. \nRequires two Tier 2 Mark. \n\nCost: 75 MP</string>
+    <string name="sagOversoulDesc">Do the forbidden. Merge with an alternate self to cast the ultimate magic. Deals almighty damage to the enemy. \nRequires one Tier 3 Mark. \n\nCost: 100 MP</string>
+
+    <!-- strings for the Pirate Class-->
+    <string name="pirSkill1">Coated Bullet</string>
+    <string name="pirSkill2">Cheap Shot</string>
+    <string name="pirSkill3">Vantage Slash</string>
+    <string name="pirSkill4">Clear Skies</string>
+    <string name="pirSkill5">Sea Dog\'s Soul</string>
+    <string name="pirSkill6">Ricochet</string>
+    <string name="pirSkill7">Tide Cleaver</string>
+    <string name="pirOversoul">Mutiny</string>
+
+    <string name="pirSkill1Desc">Shoots bullets coated in poison. Deals damage and poisons the enemy. \n\nCost: 4 MP</string>
+    <string name="pirSkill2Desc">Aims for enemy weak points and shoots at them. Deals damage and attempts to lower the enemies physical defense. \n\nCost: 5 MP</string>
+    <string name="pirSkill3Desc">Seeks injured points on the enemy and focuses on striking them. Deals damage to the enemy. Damage is increased if target suffers from ailments and/or debuffs. Damage is increased further if the target suffers from both. \n\nCost: 13 MP</string>
+    <string name="pirSkill4Desc">Channels a gentle breeze to clear away dangers to your crew. Attempts to clear all buffs from the enemy. \n\nCost: 20 MP</string>
+    <string name="pirSkill5Desc">Psyche yourself up with the promise of plunder. Greatly raise own attack while lowering defense. \n\nCost: 12 MP</string>
+    <string name="pirSkill6Desc">Bounce a bullet of the surroundings to hit the enemy\'s spine. Deals damage and attempts to paralyze the enemy. \n\nCost: 7 MP</string>
+    <string name="pirSkill7Desc">Swing your saber with enough force to split the sea. Greatly damages the enemy. \n\nCost: 19 MP</string>
+    <string name="pirOversoulDesc">Your crew has committed mutiny and your rage must be sated. Blood must be spilled. Deals devastating damage by clearing all your buffs. Activate Vantage Slash for every buff lost. \n\nThis skill can only be used once per battle.</string>
+
+    <!--
+    //to do list
+    // BUILD 0 LIST
+    //as of 10/7/2022 BUILD 0 is COMPLETE
+
+    // BUILD 1 LIST
+    //as of 11/9/2022 BUILD 1 is COMPLETE
+
+    // BUILD 2 LIST
+    //as of 11/27/2022 BUILD 2 is COMPLETE
+
+    // BUILD 2.1 LIST
+    // - UX updates
+    //   - asset uploads
+    //   - font changes
+    //   - button changes
+    //   - background settings
+    //   - portraits
+
+    // BUILD 2.2 LIST
+    // - game balances
+    //   - health changes
+    //     - player
+    //     - boss
+    //   - defense changes
+    //     - player
+    //   - damage changes
+    //     - player
+    //     - boss
+
+    // YOU NEED A SHEET OR FILE WITH SOME OF THE ADVANCED UI STUFF IN THE WORKS FOR NOW
+    // - fonts
+    // - buttons
+    // - logos
+    // - backgrounds
+    // - icons
+
+    // create the "animations" [leave for ver X.3 or X.0]
+
+    // BOSS RUSH PROGRESS LIST
+    // make the boss rush setup work properly
+    // - it currently forces a team of pirates
+    // - as of 10/19/22 it just crashes
+    // - as of 11/18/22 boss rush gets to the battle screen
+    // - as of 11/24/22 boss rush works as intended
+    -->
+
+
+</resources>
