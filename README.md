@@ -1,7 +1,7 @@
 # legend
-Turn-Based Mobile Game made with Java
 
 Synopsis
+
 Create a team of 4 heroes to use in combat against a boss or bosses depending on the game mode. The party shares one mana pool to use
 their abilities so careful consideration is placed on party formation and turn-by-turn decision making. The goal is to defeat each boss
 with your favorite parties, but an added goal is to do it quickly.
